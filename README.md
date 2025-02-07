@@ -1,0 +1,1 @@
+This example demonstrates a common yet subtle issue in TypeScript where a type error isn't caught during compilation, leading to runtime exceptions.  The `add` function is annotated to accept two numbers, but a string is passed.  The solution shows a more robust approach that adds runtime type checks or utilizes more advanced TypeScript features for better type safety.
